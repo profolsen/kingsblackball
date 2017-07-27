@@ -47,6 +47,7 @@ The following table illustrates the outcome when comparing two cards for two pla
 |Evil|Evil|War|
 
 By swapping the roles of Player A and B, this table can be used to figure out the outcome in any two player situation.
+A table specifying the class for each card can be found under <b>Card Classes & Point Values</b>
 
 # Blackballing
 The kings, placed face up in front of each player at the beginning of the game, can be played at any time during a trick to trash all the cards in the trick.  Blackballing a trick can be used to avoid winning cards with more negative point values.
