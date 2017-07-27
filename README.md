@@ -1,10 +1,10 @@
 # King's Blackball
 
-King's Blackball is a complex and accelerated variant of [war](https://en.wikipedia.org/wiki/War_(card_game)).  
-Cards are won in tricks.  
-Games are played in two rounds.  
-In the first round, each player starts with a deck of 52 cards.  
-In the second round, a player plays with the cards they won in tricks during the first round.  
+King's Blackball is a complex and accelerated variant of [war](https://en.wikipedia.org/wiki/War_(card_game)).
+Cards are won in tricks.
+Games are played in two rounds.
+In the first round, each player starts with a deck of 52 cards.
+In the second round, a player plays with the cards they won in tricks during the first round.
 After the second round, the point values of cards each player won are counted, and the player with the highest score wins.
 
 # Objective
