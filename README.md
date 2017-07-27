@@ -47,6 +47,7 @@ There are two ways to conduct a war: If each player played precisely the same ca
 If the two cards are different, then a single card is placed face down and the second is placed face up.
 The cards placed face up are treated as a new trick, so the result may be to trash all the cards from the original trick and the new trick, one player may win both tricks, or a second war may result.
 A third war cannot occur.
+A player may look at the cards they place face down during a war and use this information to figure out whether they want to blackball the trick.
 Instead, the highest card wins the trick or, if all cards are exactly equal, [sudden death](https://en.wikipedia.org/wiki/Sudden_death_(sport)) [rock-paper-scissors](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors) and the winning player wins the trick.
 
 # Comparing Cards in a Trick
