@@ -24,11 +24,10 @@ There are two ways to conduct a war: If each player played precisely the same ca
 If the two cards are different, then a single card is placed face down and the second is placed face up.  
 The cards placed face up are treated as a new trick, so the result may be to trash all the cards from the original trick and the new trick, one player may win both tricks, or a second war may result.  
 A third war cannot occur.
-Instead, the highest card wins the trick or, if all cards are exactly equal, [sudden death](https://en.wikipedia.org/wiki/Sudden_death_(sport))[rock-paper-scissors](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors) and the winning player wins the trick.
+Instead, the highest card wins the trick or, if all cards are exactly equal, [sudden death](https://en.wikipedia.org/wiki/Sudden_death_(sport)) [rock-paper-scissors](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors) and the winning player wins the trick.
 
 # Blackballing
-The kings, placed face up in front of each player at the beginning of the game, can be played at any time during a trick to trash all the cards in the trick.  
-This is useful to avoid winning cards with more negative point values.
+The kings, placed face up in front of each player at the beginning of the game, can be played at any time during a trick to trash all the cards in the trick.  Blackballing a trick can be used to avoid winning cards with more negative point values.
 
 # Point Values
 The following table illustrates the point values of each card.
@@ -48,5 +47,9 @@ The following table illustrates the point values of each card.
 |Queen|Good|1|
 |King|Blackball|-5|
 |Ace|Good|1|
+
+# Calculating Score
+At the end of the second round, each player sums up the total amount of points in cards that they won (<b>including blackball cards</b>).  
+
 
 
