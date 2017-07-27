@@ -14,7 +14,7 @@ The objective of the game is to win the greatest number of points.  Some cards h
 Each player starts with a standard 52 card deck.  Each player removes the Kings ("Black ball cards") and places them face up in front of them.  Then each player shuffles their deck.
 
 # Tricks
-A trick begins by each player placing a card from the top of their deck face up in the middle of the table.  The cards are then compared with three possible outcomes: 
+A trick begins by each player placing a card from the top of their deck face up in the middle of the table.  The cards are then compared (see <b>Comparing Cards in a Trick</b>) with three possible outcomes: 
 1. One player wins the trick. 
 In this case, the player who won the trick takes all the cards and keeps them for scoring at the end of the game, or the player may blackball the trick (see <b>blackballing</b>).
 2. All the cards played are trashed (eliminated from the game). 
@@ -26,13 +26,35 @@ The cards placed face up are treated as a new trick, so the result may be to tra
 A third war cannot occur.
 Instead, the highest card wins the trick or, if all cards are exactly equal, [sudden death](https://en.wikipedia.org/wiki/Sudden_death_(sport)) [rock-paper-scissors](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors) and the winning player wins the trick.
 
+# Comparing Cards in a Trick
+
+The winning card of a trick is determined by examining the class of the card.
+The following table illustrates the outcome when comparing two cards for two players, A and B:
+
+|Class - A|Class - B|Result|
+|---|---|---|
+|Top|Top|War|
+|Top|Any class except Top|A wins trick|
+|Pure|Pure|War|
+|Pure|Any class except Top or Pure|A wins trick|
+|Good|Good|War|
+|Good|Any class except Top, Pure, or Good|A wins trick|
+|Bad|Bad|Trash -- unless the cards are exactly the same, then war|
+|Bad|Neutral|Trash|
+|Bad|Evil|A wins trick|
+|Neutral|Neutral|War|
+|Neutral|Evil|Trash|
+|Evil|Evil|War|
+
+By swapping the roles of Player A and B, this table can be used to figure out the outcome in any two player situation.
+
 # Blackballing
 The kings, placed face up in front of each player at the beginning of the game, can be played at any time during a trick to trash all the cards in the trick.  Blackballing a trick can be used to avoid winning cards with more negative point values.
 
-# Point Values
-The following table illustrates the point values of each card.
+# Card Classes & Point Values
+The following table illustrates the point values and class memberships for each card.
 
-|Card|Quality|Point Value|
+|Card|Class|Point Value|
 |---|----|---|
 |2|Good|1|
 |3|Bad|-2|
